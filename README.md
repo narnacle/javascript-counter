@@ -21,7 +21,7 @@ This is a simple JavaScript project that demonstrates how to create a click coun
 1. **Clone the repository** or **download the files** to your local machine.
 
     ```bash
-    git clone https://github.com/yourusername/javascript-click-counter.git
+    git clone https://github.com/narnacle/javascript-counter.git
     ```
 
 2. **Open the `index.html` file** in any web browser to see the counter in action.
