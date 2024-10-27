@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Counter</title>
+</head>
+<body>
+    <!-- Display the counter -->
+    <h2>Counter: <span id="counter">0</span></h2>
+
+    <!-- Button to increment counter -->
+    <button onclick="incrementCounter()">Click Me!</button>
+
+    <script>
+        // Initialize the counter
+        let count = 0;
+
+        // Function to increment the counter and update the display
+        function incrementCounter() {
+            count += 1; // Increase count by 1
+            document.getElementById("counter").innerText = count; // Update the displayed count
+        }
+    </script>
+</body>
+</html>
